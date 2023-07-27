@@ -1,8 +1,6 @@
-[package]
-name = "checkd3x"
-version = "0.1.0"
-edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+[workspace]
+members = [
+    "checkd3x-http",
+    "checkd3x-explorer",
+    "checkd3x-types",
+]
